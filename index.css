@@ -1,0 +1,90 @@
+
+html {
+    font-family: Oswald, 'sans-serif' !important;
+}
+
+.navbar {
+    background-color: transparent !important; 
+    z-index: 10 !important; 
+    font-family: Oswald, 'sans-serif' !important;
+}
+
+#landing {
+    min-height: 100vh;
+    background-image: url('./images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat; 
+    margin-top: -48px; 
+}
+
+.bg-height {
+    height: 100vh;
+}
+
+h6 {
+    font-family: Oswald, 'sans-serif';
+	font-weight: 400;
+	line-height: 24px;
+}
+.profile-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50% !important;
+}
+
+h3 {
+    font-family: Oswald, 'sans-serif';
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+i {
+    color: white;
+}
+
+.icon-design {
+    margin-left: 15px;
+}
+
+h4 {
+    font-family: Oswald, 'sans-serif';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+    color: white;
+}
+
+.nav-container {
+    background: transparent;
+}
+
+.img-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.img-other {
+    padding: 12px;
+}
+
+input, textarea, label {
+    color: black !important;
+    font-family: Oswald, 'sans-serif' !important;
+}
+
+.button-design {
+    font-family: Oswald, 'sans-serif' !important;
+    background: black !important;
+    color: white !important;
+}
+
+.iframe-container {
+    height: 40vh;
+    max-width: 100%;
+}
+
+.contact-h4 {
+    color: black;
+}

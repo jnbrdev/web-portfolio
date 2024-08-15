@@ -18,6 +18,10 @@ html {
     margin-top: -48px; 
 }
 
+.card-style {
+    width: 18rem;
+}
+
 .bg-height {
     height: 100vh;
 }
@@ -83,6 +87,7 @@ input, textarea, label {
 .iframe-container {
     height: 40vh;
     max-width: 100%;
+    border:0;
 }
 
 .contact-h4 {

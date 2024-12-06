@@ -44,7 +44,7 @@ h3 {
 	line-height: 24px;
 }
 
-i {
+#landing i {
     color: white;
 }
 
@@ -57,7 +57,6 @@ h4 {
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 24px;
-    color: white;
 }
 
 .nav-container {
@@ -93,3 +92,40 @@ input, textarea, label {
 .contact-h4 {
     color: black;
 }
+
+/* Ensure the cards have a fixed height */
+.card-style {
+    width: 18rem;
+    height: 350px; /* Adjust the height of the card as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures the content is spaced evenly */
+}
+
+/* Ensure the images inside cards have a fixed height */
+.card-img-top {
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensures the image fills the space proportionally */
+}
+
+/* Truncate the text in the p tag after 2 lines */
+.card-body .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit text to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 48px; /* Adjust the height to match the 2 lines of text */
+}
+
+
+
+/* Center content within the card body */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
